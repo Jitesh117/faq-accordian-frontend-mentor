@@ -1,0 +1,50 @@
+:root{
+    --purple:hsl(273, 75%, 66%);
+    --blue:hsl(240, 73%, 65%);
+    --tblue:hsl(238, 29%, 16%);
+}
+*{
+    box-sizing: border-box;
+}
+body{
+   background-image: linear-gradient(var(--purple),var(--blue));
+   margin: 0;
+   padding: 0;
+    height: 100vh;
+    font-family: 'kumbh',sans-serif;
+}
+
+@media screen and (max-width:700px){
+    main{
+        width: 90%;
+        background-color: white;
+        margin: 100px auto;
+        border-radius: 10px;
+        padding: 0 10px;
+        text-align: center;
+        box-shadow: 0 0 10px 0 ;
+    }
+    .woman{
+        width: 80%;
+        height: 80%;
+        margin-top: -40%;
+    
+    }
+    .answer{
+        display: none;
+    }
+    .part{
+        padding:10px 0;
+        font-size: 14px;
+        border-bottom: 2px solid hsl(240, 5%, 91%);
+    }
+    .last{
+        padding-bottom: 10px;
+    }
+    span{
+        cursor: pointer;
+    }
+    
+
+}
+
