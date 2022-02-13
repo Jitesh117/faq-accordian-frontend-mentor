@@ -10,6 +10,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | FAQ Accordion Card</title>
+  <script src="script.js"></script>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -24,34 +25,34 @@
   <img class="woman" src="./images/illustration-woman-online-mobile.svg" alt="">
   <h1>FAQ</h1>
  <div class="part">
-  <div class="question">How many team members can I invite?<span><img src="./images/icon-arrow-down.svg" alt=""></span></div>
-  <div class="answer">You can invite up to 2 additional users on the Free plan. There is no limit on 
+  <div class="question" id="firstq" onclick="showfirst()">How many team members can I invite?<span ><img src="./images/icon-arrow-down.svg"  alt=""></span></div>
+  <div class="answer" id="first">You can invite up to 2 additional users on the Free plan. There is no limit on 
     team members for the Premium plan.</div>
  </div>
 
  <div class="part">
-  <div class="question">What is the maximum file upload size? <span><img src="./images/icon-arrow-down.svg" alt=""></span></div>
-  <div class="answer one">No more than 2GB. All files in your account must fit your allotted storage space.</div>
+  <div class="question" onclick="showsecond()">What is the maximum file upload size? <span><img src="./images/icon-arrow-down.svg"  alt=""></span></div>
+  <div class="answer one" id="second">No more than 2GB. All files in your account must fit your allotted storage space.</div>
 
   </div>
  </div>
 
   <div class="part">
-    <div class="question">How do I reset my password? <span><img src="./images/icon-arrow-down.svg" alt=""></span></div>
-    <div class="answer two"> Click “Forgot password” from the login page or “Change password” from your profile page.
+    <div class="question" onclick="showthird()">How do I reset my password? <span><img src="./images/icon-arrow-down.svg" " alt=""></span></div>
+    <div class="answer two" id="third"> Click “Forgot password” from the login page or “Change password” from your profile page.
       A reset link will be emailed to you.</div>
   </div>
 
   <div class="part ">
-    <div class="question three">Can I cancel my subscription? <span><img src="./images/icon-arrow-down.svg" alt=""></span></div>
-    <div class="answer">
+    <div class="question three" onclick="showfourth()">Can I cancel my subscription? <span><img src="./images/icon-arrow-down.svg"alt=""></span></div>
+    <div class="answer" id="fourth">
       Yes! Send us a message and we’ll process your request no questions asked.
     </div>
   </div>
 
   <div class="part last">
-    <div class="question">Do you provide additional support? <span><img src="./images/icon-arrow-down.svg" alt=""></span></div>
-    <div class="answer four"> Chat and email support is available 24/7. Phone lines are open during normal business hours.</div>
+    <div class="question" onclick="showfifth()">Do you provide additional support? <span><img src="./images/icon-arrow-down.svg"  alt=""></span></div>
+    <div class="answer four" id="fifth"> Chat and email support is available 24/7. Phone lines are open during normal business hours.</div>
   </div>
 
  </main>
