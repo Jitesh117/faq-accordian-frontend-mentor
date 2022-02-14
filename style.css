@@ -49,12 +49,16 @@ body{
     }
     .question{
         cursor: pointer;
-        font-weight: bold;
+        font-weight:  ;
     }
     .question:hover{
         color: var(--red);
     }
     
 
+}
+@media screen and (min-width:701px) {
+    
+    
 }
 
